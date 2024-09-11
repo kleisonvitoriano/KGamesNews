@@ -65,6 +65,9 @@ body{
     -moz-transition: 0.5s;
     transition: 0.5s;
 }
+.textLinkNoticias{
+    text-decoration: none;
+}
 .conteudoCaixa{
     
     box-sizing: border-box;
@@ -75,6 +78,7 @@ body{
     display: inline-grid;
     box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.25);
     margin-left: 4%;
+    
     
     flex-direction: column; /* Alinha o conteúdo em coluna */
     justify-content: space-between; /* Distribui espaço entre os elementos */
