@@ -1,0 +1,291 @@
+body{
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+}
+
+.Navbar{
+    display: flex;
+    width: 100%;
+    height: 145px;
+    padding: 9px 98px;
+    align-items: center;
+    gap: 48px;
+    flex-shrink: 0;
+
+    border-bottom: var(--sds-size-stroke-border) solid var(--Neutral-2, #DEE5ED);
+    opacity: var(--sds-size-stroke-border);
+    background: var(--Neutral-0, #FFF);
+    box-shadow: 0px 3px 24px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+}
+
+.logoNav {
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+
+  
+
+    filter: drop-shadow(4px 0px 24px  rgba(0, 0, 0, 0.25));
+}
+
+.navTextColor{
+    color: #007AFF;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+
+}
+
+.conteudo{
+    width: 1041px;
+    height: 509px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.conteudoCaixa{
+    box-sizing: border-box;
+    background: #ffffff;
+    border-radius: 25px;
+    width: 29%;
+    height: 100%;
+    display: inline-grid;
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 4%;
+    
+    flex-direction: column; /* Alinha o conteúdo em coluna */
+    justify-content: space-between; /* Distribui espaço entre os elementos */
+   
+    position: relative;
+}
+.noticia1{
+    margin-left: 2%;
+}
+.fotoNoticia{
+    width: 275px;
+    height: 173px;
+   
+    margin: auto;
+    margin-top: 4%;
+    display: block;
+    border-radius: 25px;
+    opacity: var(--sds-size-stroke-border);
+    background: url('IMGS/fotos-noticias/gta6.jpg') lightgray 50% / cover no-repeat;
+
+    
+}
+.textNoticia{
+    
+}
+.tituloNoticia{
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: -20%;
+}
+
+.paragrafoNoticia{
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: var(--sds-size-stroke-border);
+    
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 0;
+}
+
+.usuarioNoticia{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 2%;
+    left: 3%;
+}
+
+.usuarioFoto{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    display: inline-block;
+}
+.textUsuario{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: -16px;
+
+   
+}
+.usuarioNick{
+    color: #19202D;
+    display: block;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: var(--sds-size-stroke-border);
+}
+
+.dataPostagem{
+    color: #9397A0;
+    display: block;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: var(--sds-size-stroke-border);
+}
+.buttonSeta{
+    background: #eff5f4;
+    border-radius: 11px;
+    width: 35px;
+    height: 35px;
+    position: absolute; /* Posicionamento absoluto */
+    bottom: 1%; /* Define a distância do fundo */
+    right: 3%; /* Define a distância da direita */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+.seta{
+    width: 60%;
+    height: 60%;
+    flex-shrink: 0;
+}
+.rodape{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 1041px;
+    margin-bottom: 5%;
+}
+.rodapeContato{
+    width: 62%;
+
+    height: 182px;
+    flex-shrink: 0;
+    display: inline-block;
+    border-radius: 25px;
+    opacity: var(--sds-size-stroke-border);
+    background: #FFF;
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin-left: 2%;
+}
+
+.tituloRodape{
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: block;
+    padding-left: 10%;
+    margin-top: 3%;
+    
+}
+
+.paragrafoRodape{
+    width: 300px;
+    height: 56px;
+    flex-shrink: 0;
+    display: inline-block;
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding-left: 10%;
+    padding-top: 1%;
+}
+
+.locSimbol{
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+    display: inline-block;
+    position: absolute;
+    right: 11%;
+    bottom: 30%;
+}
+
+.encontrar{
+    background: #007aff;
+    border-radius: 25px;
+    width: 98px;
+    height: 40px;
+    position: absolute;
+    right: 43%;
+    margin-top:1%;
+    border: none;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    line-height: normal;
+    color: #FFF;
+    display: block;
+}
+.EmailCaixa{
+    display: inline-block;
+    width: 320px;
+    height: 182px;
+    margin-left: 3%;
+    
+    border-radius: 25px;
+    
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.25);
+}
+.textForm{
+    padding-left: 10%;
+    margin-top: 3%;
+}
+.botaoForm{
+    background: #007aff;
+    border-radius: 25px;
+    width: 98px;
+    height: 40px;
+    
+    
+    border: none;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    line-height: normal;color: #FFF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.formCaixa{
+    background: var(--var-sds-color-background-default-default, #ffffff);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: var(--var-sds-color-border-default-default, #d9d9d9);
+    border-width: 1px;
+    display: block;
+    width: 90%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    line-height: normal;
+    margin: 5%;
+   padding: 5%;
+
+}
