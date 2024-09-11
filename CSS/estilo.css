@@ -66,6 +66,7 @@ body{
     transition: 0.5s;
 }
 .conteudoCaixa{
+    
     box-sizing: border-box;
     background: #ffffff;
     border-radius: 25px;
@@ -247,6 +248,7 @@ body{
     bottom: 30%;
 }
 
+
 .encontrar{
     background: #007aff;
     border-radius: 25px;
@@ -306,4 +308,14 @@ body{
     margin: 5%;
    padding: 5%;
 
+}
+
+.encontrar:hover {
+    background-color: #0069d9; /* cor do botão quando o mouse passa por cima */
+    color: #ffffff; /* mantém a cor do texto do botão */
+  }
+
+.botaoForm:hover {
+    background-color: #0069d9; /* cor do botão quando o mouse passa por cima */
+    color: #ffffff; /* mantém a cor do texto do botão */
 }
